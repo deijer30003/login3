@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse ;
+    width: 100%;
+}
+
+th,td {
+
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: rgb(29, 158, 233);
+
+}
+
+th {
+    background-color: rgb(216, 22, 22);
+    color: rgb(3, 55, 107);
+}
+
+a:link, a:visited{
+    background-color: rgb(106, 127, 241);
+    color: rgb(19, 10, 9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover, a:active{
+    background-color: crimson;
+    border-radius: 5px;
+
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid#9e1212;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #28f050;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+    background-color: #45a049;
+
+}
