@@ -17,11 +17,9 @@
 
 <div class="form-group">
 
-<h1>SISTEMA LOGIN</h1>
+<h1>SISTEMA HACKEADO</h1>
 <br>
 <br>
-<p>Usuario <input type="text"placeholder="ingrese su usuario" class="form-control"name="usuario" > </p>
-<p>Contraseña<input type="password"placeholder="ingrese su contraseña"class="form-control" name="password" > </p>
 
 
 <button id="boton" class="boton">inicie sesion</button>
